@@ -8,6 +8,6 @@ Run `stress` in Debian container.
 Example consuming 1 core and 1GB of ram:
 
 ```shell
-$ docker run --rm -it -e "MEM=1G" nbarnum/stress
+$ docker run --rm -it -e "MEM=1G" quay.io/nbarnum/stress
 stress: info: [6] dispatching hogs: 1 cpu, 0 io, 1 vm, 0 hdd
 ```
